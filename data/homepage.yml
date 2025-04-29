@@ -1,0 +1,143 @@
+head:
+  title: "Cesar Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "¡Hola, soy Cesar Vega!"
+  subtitle: "Ingeniero Industrial en proceso"
+  description: "Descubre mi portafolio profesional, donde comparto mi experiencia laboral, mis habilidades clave y una selección de mis trabajos académicos más relevantes."
+  image:
+    x: "img/showcase/diseño1.jpg"
+    _2x: "img/showcase/diseño1.jpg"
+  imageMobile:
+    x: "img/showcase/diseño1.jpg"
+    _2x: "img/showcase/diseño1.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Matt"
+    URL: "alfonsovegacesa70@gmail.com"
+
+  socialLinks:
+
+    - icon: "github"
+      URL: "https://github.com/cesar200320"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/handsome_jack28/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/profile.php?id=100074825277986"
+      
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>Entusiasta de la Ingeniería Industrial y su enfoque en la optimización de procesos</strong>, vivo con gran interés mi formación. He descubierto recientemente el valor y la potencia de la estadística en el análisis de datos. En mis momentos de descanso, disfruto plenamente de la compañía de mis hermanos.
+    </p>
+    <p class="lead">
+    <strong>Siento una profunda fascinación por la estadística y la creación de piezas 3D</strong>, dos campos que realmente disfruto explorar y en los que me gustaría enfocarme cada vez más.
+    </p>
+  
+  image:
+    x: "img/who-am-i/yo.jpg"
+    _2x: "img/who-am-i/yo.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Actualmente me encuentro en las primeras etapas de mi desarrollo profesional y, si bien no cuento con experiencia laboral formal, estoy ansioso por aplicar los conocimientos y habilidades adquiridos en mi formación académica en un entorno profesional. Estoy buscando activamente oportunidades para contribuir y aprender de profesionales experimentados."
+
+    # education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universidad del Magdalena"
+      year: "Cursando"
+      degree: "Ingeniería Industrial"
+
+    - university: "IED EL PARQUE"
+      year: "2016-2021"
+      degree: "Bachiller"
+      
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+
+  works:
+    - title: "Caso de estudio: Ingreso monetario de un mototaxi y su caracterización genérica"
+      description: "Este estudio de caso se enfoca en estimar el ingreso monetario promedio de los mototaxistas en Santa Marta, Colombia, y en caracterizar sus condiciones socioeconómicas (MRBQ)."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "PDF"
+        URL: "https://drive.google.com/file/d/1yQ2smPDRLa-mqskFrgFcAI3Nc-rYLnvU/view?usp=sharing"
+      image:
+        x: "img/works/Estudiomoto1.jpg"
+        _2x: "img/works/Estudiomoto1.jpg" 
+      is_even: true
+
+    - title: "Más que una simple chispa: La máquina de Wimshurst."
+      description: "Describe la máquina de Wimshurst, un generador electrostático que funciona según el principio de inducción electrostática y que tiene gran importancia en la historia de la electrostática y la generación de alto voltaje. Este proyecto fue realizado en otra universidad en la que asistí 4 semestres"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "PDF"
+        URL: "https://drive.google.com/file/d/1TrmX33XhCSSkAQgaMHfUJYv_z0C0Skk6/view?usp=sharing"
+      image:
+        x: "img/works/Wimshurst.jpg"
+        _2x: "img/works/Wimshurst.jpg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Joshua Bedoya"
+      position: "Estudiante de Ingenieria Industrial"
+      content: "Trabajar con César es bueno porque siempre trae ideas frescas a los proyectos, a veces hasta demasiado creativas para nosotros. Pero fuera de eso, se nota que tiene ganas y se preocupa por que las cosas salgan bien. Puede que a veces se le escape algún detalle, pero siempre está dispuesto a escuchar y a dar una mano cuando uno la necesita. Además, las reuniones de trabajo nunca son aburridas, siempre hay espacio para echar chiste y relajarnos un poco en medio de la presión. Es un buen compañero de equipo que le pone buena actitud a la causa y eso se agradece."
+        
+    - name: "Wilmer Ruiz"
+      position: "Estudiante de Ingenieria Industrial"
+      content: "Quiero destacar lo bueno que es trabajar contigo, César! Como ingeniero industrial en proceso, tu dedicación y habilidades han sido fundamentales para nuestros proyectos. Tu apoyo y colaboración han hecho una gran diferencia en nuestro equipo."
+  
+    - name: "Marycell Zuluaga"
+      position: "Estdiante de medicina"
+      content: "En estos dos años trabajando con Cesar puedo decir que me estreso bastante, tenemos ideas muy diferentes pero eso no significa que sea malo, o a veces sí. Pero en general, nuestras ideas se complementan, ya que trabajamos en equipo aportando conocimiento y experiencia para hacer realidad nuestros proyectos."
+
+# contact
+contact:
+  enable: true
+  title: "Contact Cesar"
+    
+  image:
+    x: "img/who-am-i/yo.jpg"
+    _2x: "img/who-am-i/yo.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:alfonsovegacesar70@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "3008607787"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
